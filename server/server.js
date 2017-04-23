@@ -11,9 +11,6 @@ let app = express();
 
 app.use(express.static(publicPath));
 
-app.get('/', (req, res) => {
-
-});
 
 app.listen(3000, () => {
     console.log(`Server is running on ${port}`);
